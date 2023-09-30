@@ -41,20 +41,20 @@ const app = {
         {
             name: "Bai hat 4",
             singer: "Singer 4",
-            path: "./assets/music/baihat1.mp3",
-            image: "./assets/img/avt1.jpg",
+            path: "./assets/music/baihat4.mp3",
+            image: "./assets/img/avt4.jpg",
         },
         {
             name: "Bai hat 5",
             singer: "Singer 5",
-            path: "./assets/music/baihat2.mp3",
-            image: "./assets/img/avt2.jpg",
+            path: "./assets/music/baihat5.mp3",
+            image: "./assets/img/avt5.jpg",
         },
         {
             name: "Bai hat 6",
             singer: "Singer 6",
-            path: "./assets/music/baihat3.mp3",
-            image: "./assets/img/avt3.jpg",
+            path: "./assets/music/baihat6.mp3",
+            image: "./assets/img/avt6.jpg",
         },
     ],
     render() {
