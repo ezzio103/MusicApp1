@@ -73,7 +73,7 @@ const app = {
         </div>
     `;
         });
-        // console.log(htmls)
+        
         $(".playlist").innerHTML = htmls.join(" ");
     },
     defineProperties: function () {
@@ -131,9 +131,8 @@ const app = {
                     audio.play()
                 }
             }
-            // progress.onmouseup=function(){
-            //     audio.play()
-            // }
+            
+        
             audio.ontimeupdate = function () {
                 if (audio.duration) {
                     progressPercent = Math.floor(
