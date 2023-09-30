@@ -125,7 +125,15 @@ const app = {
             };
 
             // xu li thanh tua
-            
+            progress.onmousedown=function(){
+                audio.pause()
+                progress.onmouseup=function(){
+                    audio.play()
+                }
+            }
+            // progress.onmouseup=function(){
+            //     audio.play()
+            // }
             audio.ontimeupdate = function () {
                 if (audio.duration) {
                     progressPercent = Math.floor(
@@ -135,7 +143,7 @@ const app = {
                 }
             };
 
-            progress.onchange = function (e) {
+            progress.oninput = function (e) {
                 audio.currentTime =
                     (e.target.value / 100) * audio.duration;
             };
@@ -216,11 +224,14 @@ const app = {
 
         
     },
-    scrollCurrentSong(){if(this.currentIndex===1){$('.song.active').scrollIntoView({
+    scrollCurrentSong(){
+        if(this.currentIndex<=1)
+        {$('.song.active').scrollIntoView({
             behavior:'smooth',
-            block:'center',
+            block:'end',
 
-        })}else{
+        })}
+        else{
             $('.song.active').scrollIntoView({
             behavior:'smooth',
             block:'nearest',
