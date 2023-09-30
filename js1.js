@@ -21,37 +21,37 @@ const app = {
     isRepeat: false,
     songs: [
         {
-            name: "bai hat 1",
+            name: "Am tham ben em 1",
             singer: "Singer 1",
             path: "./assets/music/baihat1.mp3",
             image: "./assets/img/avt1.jpg",
         },
         {
-            name: "bai hat 2",
+            name: "bai hat 2 2",
             singer: "Singer 2",
             path: "./assets/music/baihat2.mp3",
             image: "./assets/img/avt2.jpg",
         },
         {
-            name: "bai hat 3",
+            name: "chac ai do se ve 3",
             singer: "Singer 3",
             path: "./assets/music/baihat3.mp3",
             image: "./assets/img/avt3.jpg",
         },
         {
-            name: "bai hat 4",
+            name: "Am tham ben em 4",
             singer: "Singer 4",
             path: "./assets/music/baihat1.mp3",
             image: "./assets/img/avt1.jpg",
         },
         {
-            name: "bai hat 5",
+            name: "bai hat 2 5",
             singer: "Singer 5",
             path: "./assets/music/baihat2.mp3",
             image: "./assets/img/avt2.jpg",
         },
         {
-            name: "bai hat 6",
+            name: "chac ai do se ve 6",
             singer: "Singer 6",
             path: "./assets/music/baihat3.mp3",
             image: "./assets/img/avt3.jpg",
